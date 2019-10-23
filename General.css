@@ -1,0 +1,105 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	position: fixed;
+	z-index: 100;
+	width: 100%;
+	height: 9%;
+}
+
+footer{
+	width: 100%;
+	height: 10%;
+}
+
+.background{
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+	background-color: #f6e9d3;
+	background-image: url('background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	opacity: 0.7;
+    filter:alpha(opacity=70);
+}
+
+.navBar{
+	width: 100%;
+	font-size: 1.875em;
+	text-align: center;
+	text-decoration: none;
+}
+
+.navBar a{
+	color: white;
+	padding: .31em ,625em;
+    margin: .31em .625em;
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    top: -.815em;
+    position: relative;
+}
+
+.navMenu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+}
+
+.navMenu li {
+    position: relative;
+}
+
+.navMenu a:hover {
+    color: #000000;
+}
+
+.navMenu > li {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: -.25em;
+}
+
+.navMenu > li:first-child {
+    margin-left: 0;
+}
+
+.navMenu > li > a {}
+
+.navMenu > li > a:hover {}
+
+.navMenu > li > ul {
+    text-align: left;
+    width: auto;
+    display: none;
+    background: #C89C7D;
+    position: absolute;
+    top: 73%;
+    left: 0;
+    padding-bottom: .3em;
+    min-width: 10em;
+    border-radius: 0 0 .5em .5em;
+    z-index: 9999999;
+    font-size: .875em;
+}
+
+.navMenu > li:hover > ul {
+    display: block;
+}
+
+.navMenu ul li a {
+	top: 10%;
+}
+
+.navMenu ul li a:hover {
+    color: #D6D6D6;
+}
