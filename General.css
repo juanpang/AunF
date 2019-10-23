@@ -29,6 +29,30 @@ footer{
     font-style: normal;
 }
 
+h1.title{
+    color: #99760a;
+    font-family: 'Goudy Bookletter 1911';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 4em;
+}
+
+h2.title{
+    color: #99760a;
+    font-family: 'Goudy Bookletter 1911';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 3em;
+}
+
+.text {
+    color: black;
+    font-family: 'Goudy Bookletter 1911';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.5em;
+}
+
 .background{
 	position: fixed;
     top: 0;
